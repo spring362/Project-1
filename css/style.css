@@ -11,18 +11,40 @@ h1{
 }
 
 #info{
+  box-sizing: border-box;
   font-size: 15px;
   text-align: center;
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  box-sizing: border-box;
 }
 #info ul{
   list-style-type: none;
 }
 
-#input-email input{
-  list-style-type: none;
+h2{
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  margin-bottom: 0%;
+}
+
+p{
+  font-family: "Verdana", sans-serif;
+  margin: 1%;
+}
+@media only screen and (min-width: 510px) {
+  h1{
+    font-size: 60px;
+  }
+  #info{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 35px;
+  }
 }
