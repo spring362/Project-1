@@ -8,6 +8,7 @@ h1{
   font-family: "Erica One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 3%;
 }
 
 #info{
@@ -19,6 +20,7 @@ h1{
   font-weight: 700;
   font-style: normal;
   color: #800020;
+  margin-bottom: 5%;
 }
 #info ul{
   list-style-type: none;
