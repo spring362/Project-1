@@ -18,6 +18,7 @@ h1{
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: #800020;
 }
 #info ul{
   list-style-type: none;
@@ -33,10 +34,19 @@ h2{
   margin-bottom: 0%;
 }
 
+#input-name{
+  margin-bottom: .5%;
+}
+
 p{
   font-family: "Verdana", sans-serif;
   margin: 1%;
 }
+
+.button{
+  background-color: green;
+}
+
 @media only screen and (min-width: 510px) {
   h1{
     font-size: 60px;
