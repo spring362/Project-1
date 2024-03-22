@@ -20,6 +20,12 @@ h1{
   font-style: normal;
   color: #800020;
   margin-bottom: 5%;
+  background-color: #FFFDD0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 5% auto;
+  /*box-shadow: 0 0 10px*/
 }
 #info ul{
   list-style-type: none;
