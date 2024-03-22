@@ -12,7 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Erica+One&family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>JOIN OUR CAR SUBREDDIT TODAY</h1>
+  <img src="media/RedditLogo.png" alt="Reddit Logo car subreddit" class="logoImage">
+  <h1>JOIN OUR CAR SUBREDDIT TODAY!</h1>
+  <p id="subred">r/Cartalk</p>
   <div id= "info">
   <ul>
     <li>Stay Up To Date About The Latest Car News!</li>
@@ -21,8 +23,7 @@
     <li>Bonus: Car Care Secrets!</li>
   </ul>
   </div>
-  
-  <form method="get" action="#null">
+  <form method="get" action="#null" onsubmit="return validateEmail()">
     <h2>Sign Up Here</h2>
     <p>We'll Email You A Link For Quick and Easy Access</p>
     <div id="input-name">
@@ -34,9 +35,8 @@
       <input type="email" name="email" id="email" pattern="^.+@.+$">
     </div>
     <div id="input-submit">
-      <button type="submit" id="submit" onclick="myFunction()">Submit</button>
+      <button type="submit" id="submit" onclick="myFunction()">Send Link</button>
     </div>
   </form>
-
 </body>
 </html>
