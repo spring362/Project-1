@@ -41,7 +41,7 @@ h1{
 }
 
 h2{
-  font-family: "Fredoka", sans-serif;
+  font-family: "Fredoka", "Arial", sans-serif;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -53,7 +53,7 @@ h2{
 }
 
 p{
-  font-family: "Verdana", sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
   margin: 1%;
 }
 
