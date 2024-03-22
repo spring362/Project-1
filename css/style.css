@@ -46,6 +46,13 @@ h2{
     "wdth" 100;
   margin-bottom: 0%;
 }
+#container{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 5% auto;
+}
 #input-name{
   margin-bottom: .5%;
 }
@@ -54,8 +61,10 @@ p{
   margin: 1%;
 }
 input[type="text"],
-  input[type="email"]{
+input[type="email"]{
     width: 50%;
+    background-color: #FFFDD0
+}
 .button{
   background-color: green;
 }
