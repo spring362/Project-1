@@ -39,7 +39,6 @@ h1{
 #info ul{
   list-style-type: none;
 }
-
 h2{
   font-family: "Fredoka", "Arial", sans-serif;
   font-style: normal;
@@ -47,20 +46,19 @@ h2{
     "wdth" 100;
   margin-bottom: 0%;
 }
-
 #input-name{
   margin-bottom: .5%;
 }
-
 p{
   font-family: "Verdana", "Arial", sans-serif;
   margin: 1%;
 }
-
+input[type="text"],
+  input[type="email"]{
+    width: 50%;
 .button{
   background-color: green;
 }
-
 @media only screen and (min-width: 510px) {
   h1{
     font-size: 60px;
@@ -70,5 +68,30 @@ p{
   }
   h2{
     font-size: 35px;
+  }
+}
+@media only screen and (min-width: 750px) {
+  body {
+    text-align: center;
+  }
+  .logoImage {
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  #subred {
+    font-size: 36px; 
+  }
+  #info {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  
+  input[type="text"],
+  input[type="email"]{
+    width: 90%;
   }
 }
